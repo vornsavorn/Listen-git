@@ -5,5 +5,5 @@ if (isset($id))
 {
     require '../../models/category.model.php';
     deleteCategory($id);
-    header('Location: /category');
+    header('Location: /cat');
 }
